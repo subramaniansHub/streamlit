@@ -23,6 +23,6 @@ def scrape_data(url):
 
 url = "https://www.screener.in/company/ADANIENT/consolidated/"
 prox = get_client_ip()
-st.write("Your IP is" + prox)
+st.write(scrape_data(url))
 
 
